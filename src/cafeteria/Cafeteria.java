@@ -16,7 +16,7 @@ public class Cafeteria {
 		
 		int op;
 		
-		System.out.println("\n-------------Bem-vindo a nossa Cafeteria-------------");
+		System.out.println("\n-------------Bem-vindo a Cafeteria Java Coffee! -------------");
 		System.out.println("\nEscolha uma opção abaixo:");
 		System.out.println("\n(1)Gostaria de fazer um pedido");
 		System.out.println("\n(2)Gostaria de pedir a conta");
@@ -35,6 +35,7 @@ public class Cafeteria {
 			System.out.println("\n5 - Bolo de cenoura ---------- R$ 12,50");
 			System.out.println("\n6 - Bolo de chocolate ---------- R$ 12,50");
 			System.out.println("\n7 - Cheesecake de chocolate ----------- R$ 15,00");
+			
 			
 			int pedido = leitor.nextInt();
 			
